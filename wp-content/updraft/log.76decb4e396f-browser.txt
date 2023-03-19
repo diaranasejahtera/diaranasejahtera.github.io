@@ -1,0 +1,241 @@
+0001.201 (R) [notice] Looking for db archive: file name: backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-db.gz
+0001.203 (R) [notice] Archive is expected to be size: 624.9 KB: OK
+0001.208 (R) [notice] Looking for plugins archive: file name: backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-plugins.zip
+0001.209 (R) [notice] Archive is expected to be size: 43550.9 KB: OK
+0001.215 (R) [notice] Looking for themes archive: file name: backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-themes.zip
+0001.216 (R) [notice] Archive is expected to be size: 4181 KB: OK
+0001.222 (R) [notice] Looking for uploads archive: file name: backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-uploads.zip
+0001.224 (R) [notice] Archive is expected to be size: 105145.8 KB: OK
+0001.231 (R) [notice] Looking for others archive: file name: backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-others.zip
+0001.235 (R) [notice] Archive is expected to be size: 2.6 KB: OK
+0001.267 (R) [notice] Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-db.gz, 0.6 Mb)
+0001.275 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.847 (R) [notice] Mengaktifkan moda perawatan&#8230;
+0002.412 (R) [notice] Backup created by: 1.16.69
+0002.413 (R) [notice] Backup of: http://diaranasejahtera.com
+0002.456 (R) [notice] Site home: https://diaranasejahtera.com
+0002.456 (R) [notice] Content URL: http://diaranasejahtera.com/wp-content
+0002.456 (R) [notice] Uploads URL: https://diaranasejahtera.com/wp-content/uploads
+0002.457 (R) [notice] Old table prefix: wpvk_
+0002.457 (R) [notice] Site information: multisite = 0
+0002.457 (R) [notice] Site information: sql_mode = ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0002.461 (R) [notice] New table prefix: jo_
+0002.506 (R) [notice] Processing table (MyISAM):  wpvk_options - will restore as: jo_options
+0003.320 (R) [notice] Atomic restore: dropping original table (dn_options)
+0003.517 (R) [notice] Atomic restore: renaming new table (jo_options) to final table name (dn_options)
+0003.765 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0003.774 (R) [notice] Search and replacing table: dn_options: rows: 687
+0003.826 (R) [notice] Processing table (MyISAM):  wpvk_users - will restore as: jo_users
+0004.127 (R) [notice] Atomic restore: dropping original table (dn_users)
+0004.201 (R) [notice] Atomic restore: renaming new table (jo_users) to final table name (dn_users)
+0004.211 (R) [notice] Search and replacing table: dn_users: rows: 1
+0004.212 (R) [notice] Processing table (MyISAM):  wpvk_usermeta - will restore as: jo_usermeta
+0004.309 (R) [notice] Atomic restore: dropping original table (dn_usermeta)
+0004.411 (R) [notice] Atomic restore: renaming new table (jo_usermeta) to final table name (dn_usermeta)
+0004.416 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0004.424 (R) [notice] Search and replacing table: dn_usermeta: rows: 46
+0004.428 (R) [notice] Processing table (MyISAM):  wpvk_commentmeta - will restore as: jo_commentmeta
+0004.466 (R) [notice] Atomic restore: dropping original table (dn_commentmeta)
+0004.541 (R) [notice] Atomic restore: renaming new table (jo_commentmeta) to final table name (dn_commentmeta)
+0004.550 (R) [notice] Search and replacing table: dn_commentmeta: rows: 0
+0004.551 (R) [notice] Processing table (MyISAM):  wpvk_comments - will restore as: jo_comments
+0004.577 (R) [notice] Atomic restore: dropping original table (dn_comments)
+0004.650 (R) [notice] Atomic restore: renaming new table (jo_comments) to final table name (dn_comments)
+0004.660 (R) [notice] Search and replacing table: dn_comments: rows: 1
+0004.661 (R) [notice] Processing table (MyISAM):  wpvk_links - will restore as: jo_links
+0004.681 (R) [notice] Atomic restore: dropping original table (dn_links)
+0004.802 (R) [notice] Atomic restore: renaming new table (jo_links) to final table name (dn_links)
+0004.833 (R) [notice] Search and replacing table: dn_links: rows: 0
+0004.834 (R) [notice] Processing table (MyISAM):  wpvk_postmeta - will restore as: jo_postmeta
+0005.651 (R) [notice] Atomic restore: dropping original table (dn_postmeta)
+0005.837 (R) [notice] Atomic restore: renaming new table (jo_postmeta) to final table name (dn_postmeta)
+0005.866 (R) [notice] Search and replacing table: dn_postmeta: rows: 317
+0006.644 (R) [notice] Processing table (MyISAM):  wpvk_posts - will restore as: jo_posts
+0007.033 (R) [notice] Atomic restore: dropping original table (dn_posts)
+0007.127 (R) [notice] Atomic restore: renaming new table (jo_posts) to final table name (dn_posts)
+0007.136 (R) [notice] Search and replacing table: dn_posts: rows: 387
+0007.379 (R) [notice] Processing table (MyISAM):  wpvk_term_relationships - will restore as: jo_term_relationships
+0007.531 (R) [notice] Atomic restore: dropping original table (dn_term_relationships)
+0007.722 (R) [notice] Atomic restore: renaming new table (jo_term_relationships) to final table name (dn_term_relationships)
+0007.726 (R) [notice] Skipping this table: data in this table (dn_term_relationships) should not be search/replaced
+0007.727 (R) [notice] Processing table (MyISAM):  wpvk_term_taxonomy - will restore as: jo_term_taxonomy
+0007.757 (R) [notice] Atomic restore: dropping original table (dn_term_taxonomy)
+0007.842 (R) [notice] Atomic restore: renaming new table (jo_term_taxonomy) to final table name (dn_term_taxonomy)
+0007.850 (R) [notice] Search and replacing table: dn_term_taxonomy: rows: 29
+0007.852 (R) [notice] Processing table (MyISAM):  wpvk_termmeta - will restore as: jo_termmeta
+0007.884 (R) [notice] Atomic restore: dropping original table (dn_termmeta)
+0007.992 (R) [notice] Atomic restore: renaming new table (jo_termmeta) to final table name (dn_termmeta)
+0008.016 (R) [notice] Search and replacing table: dn_termmeta: rows: 38
+0008.019 (R) [notice] Processing table (MyISAM):  wpvk_terms - will restore as: jo_terms
+0008.045 (R) [notice] Database queries processed: 50 in 6.76 seconds
+0008.049 (R) [notice] Atomic restore: dropping original table (dn_terms)
+0008.534 (R) [notice] Atomic restore: renaming new table (jo_terms) to final table name (dn_terms)
+0008.554 (R) [notice] Search and replacing table: dn_terms: rows: 29
+0008.556 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_order_itemmeta - will restore as: jo_woocommerce_order_itemmeta
+0008.583 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_order_itemmeta)
+0008.584 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_order_itemmeta) to final table name (dn_woocommerce_order_itemmeta)
+0008.593 (R) [notice] Search and replacing table: dn_woocommerce_order_itemmeta: rows: 0
+0008.593 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_payment_tokenmeta - will restore as: jo_woocommerce_payment_tokenmeta
+0008.629 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_payment_tokenmeta)
+0008.630 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_payment_tokenmeta) to final table name (dn_woocommerce_payment_tokenmeta)
+0008.638 (R) [notice] Search and replacing table: dn_woocommerce_payment_tokenmeta: rows: 0
+0008.639 (R) [notice] Processing table (MyISAM):  wpvk_nextend2_image_storage - will restore as: jo_nextend2_image_storage
+0008.666 (R) [notice] Atomic restore: dropping original table (dn_nextend2_image_storage)
+0008.667 (R) [notice] Atomic restore: renaming new table (jo_nextend2_image_storage) to final table name (dn_nextend2_image_storage)
+0008.675 (R) [notice] Search and replacing table: dn_nextend2_image_storage: rows: 2
+0008.676 (R) [notice] Processing table (MyISAM):  wpvk_nextend2_section_storage - will restore as: jo_nextend2_section_storage
+0008.712 (R) [notice] Atomic restore: dropping original table (dn_nextend2_section_storage)
+0008.712 (R) [notice] Atomic restore: renaming new table (jo_nextend2_section_storage) to final table name (dn_nextend2_section_storage)
+0008.721 (R) [notice] Search and replacing table: dn_nextend2_section_storage: rows: 6
+0008.723 (R) [notice] Processing table (MyISAM):  wpvk_nextend2_smartslider3_generators - will restore as: jo_nextend2_smartslider3_generators
+0008.748 (R) [notice] Atomic restore: dropping original table (dn_nextend2_smartslider3_generators)
+0008.748 (R) [notice] Atomic restore: renaming new table (jo_nextend2_smartslider3_generators) to final table name (dn_nextend2_smartslider3_generators)
+0008.757 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_generators: rows: 0
+0008.757 (R) [notice] Processing table (MyISAM):  wpvk_nextend2_smartslider3_sliders - will restore as: jo_nextend2_smartslider3_sliders
+0008.783 (R) [notice] Atomic restore: dropping original table (dn_nextend2_smartslider3_sliders)
+0008.784 (R) [notice] Atomic restore: renaming new table (jo_nextend2_smartslider3_sliders) to final table name (dn_nextend2_smartslider3_sliders)
+0008.794 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_sliders: rows: 0
+0008.795 (R) [notice] Processing table (MyISAM):  wpvk_nextend2_smartslider3_sliders_xref - will restore as: jo_nextend2_smartslider3_sliders_xref
+0008.828 (R) [notice] Atomic restore: dropping original table (dn_nextend2_smartslider3_sliders_xref)
+0008.829 (R) [notice] Atomic restore: renaming new table (jo_nextend2_smartslider3_sliders_xref) to final table name (dn_nextend2_smartslider3_sliders_xref)
+0008.841 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_sliders_xref: rows: 0
+0008.841 (R) [notice] Processing table (MyISAM):  wpvk_nextend2_smartslider3_slides - will restore as: jo_nextend2_smartslider3_slides
+0008.898 (R) [notice] Atomic restore: dropping original table (dn_nextend2_smartslider3_slides)
+0008.900 (R) [notice] Atomic restore: renaming new table (jo_nextend2_smartslider3_slides) to final table name (dn_nextend2_smartslider3_slides)
+0008.918 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_slides: rows: 0
+0008.919 (R) [notice] Processing table (MyISAM):  wpvk_wc_download_log - will restore as: jo_wc_download_log
+0008.948 (R) [notice] Atomic restore: dropping original table (dn_wc_download_log)
+0008.949 (R) [notice] Atomic restore: renaming new table (jo_wc_download_log) to final table name (dn_wc_download_log)
+0008.958 (R) [notice] Search and replacing table: dn_wc_download_log: rows: 0
+0008.958 (R) [notice] Processing table (MyISAM):  wpvk_wc_webhooks - will restore as: jo_wc_webhooks
+0008.993 (R) [notice] Atomic restore: dropping original table (dn_wc_webhooks)
+0008.994 (R) [notice] Atomic restore: renaming new table (jo_wc_webhooks) to final table name (dn_wc_webhooks)
+0009.004 (R) [notice] Search and replacing table: dn_wc_webhooks: rows: 0
+0009.004 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_api_keys - will restore as: jo_woocommerce_api_keys
+0009.032 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_api_keys)
+0009.032 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_api_keys) to final table name (dn_woocommerce_api_keys)
+0009.041 (R) [notice] Search and replacing table: dn_woocommerce_api_keys: rows: 0
+0009.041 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_attribute_taxonomies - will restore as: jo_woocommerce_attribute_taxonomies
+0009.077 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_attribute_taxonomies)
+0009.078 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_attribute_taxonomies) to final table name (dn_woocommerce_attribute_taxonomies)
+0009.087 (R) [notice] Search and replacing table: dn_woocommerce_attribute_taxonomies: rows: 0
+0009.087 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_downloadable_product_permissions - will restore as: jo_woocommerce_downloadable_product_permissions
+0009.113 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_downloadable_product_permissions)
+0009.113 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_downloadable_product_permissions) to final table name (dn_woocommerce_downloadable_product_permissions)
+0009.124 (R) [notice] Search and replacing table: dn_woocommerce_downloadable_product_permissions: rows: 0
+0009.124 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_log - will restore as: jo_woocommerce_log
+0009.154 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_log)
+0009.154 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_log) to final table name (dn_woocommerce_log)
+0009.186 (R) [notice] Search and replacing table: dn_woocommerce_log: rows: 0
+0009.186 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_order_items - will restore as: jo_woocommerce_order_items
+0009.284 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_order_items)
+0009.286 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_order_items) to final table name (dn_woocommerce_order_items)
+0009.300 (R) [notice] Skipping this table: data in this table (dn_woocommerce_order_items) should not be search/replaced
+0009.300 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_payment_tokens - will restore as: jo_woocommerce_payment_tokens
+0009.345 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_payment_tokens)
+0009.347 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_payment_tokens) to final table name (dn_woocommerce_payment_tokens)
+0009.380 (R) [notice] Search and replacing table: dn_woocommerce_payment_tokens: rows: 0
+0009.381 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_sessions - will restore as: jo_woocommerce_sessions
+0009.429 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_sessions)
+0009.431 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_sessions) to final table name (dn_woocommerce_sessions)
+0009.445 (R) [notice] Skipping this table: data in this table (dn_woocommerce_sessions) should not be search/replaced
+0009.446 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_shipping_zone_locations - will restore as: jo_woocommerce_shipping_zone_locations
+0009.474 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_shipping_zone_locations)
+0009.475 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_shipping_zone_locations) to final table name (dn_woocommerce_shipping_zone_locations)
+0009.490 (R) [notice] Search and replacing table: dn_woocommerce_shipping_zone_locations: rows: 0
+0009.491 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_shipping_zone_methods - will restore as: jo_woocommerce_shipping_zone_methods
+0009.527 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_shipping_zone_methods)
+0009.528 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_shipping_zone_methods) to final table name (dn_woocommerce_shipping_zone_methods)
+0009.542 (R) [notice] Search and replacing table: dn_woocommerce_shipping_zone_methods: rows: 0
+0009.542 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_shipping_zones - will restore as: jo_woocommerce_shipping_zones
+0009.579 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_shipping_zones)
+0009.580 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_shipping_zones) to final table name (dn_woocommerce_shipping_zones)
+0009.597 (R) [notice] Search and replacing table: dn_woocommerce_shipping_zones: rows: 0
+0009.598 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_tax_rate_locations - will restore as: jo_woocommerce_tax_rate_locations
+0009.638 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_tax_rate_locations)
+0009.639 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_tax_rate_locations) to final table name (dn_woocommerce_tax_rate_locations)
+0009.648 (R) [notice] Search and replacing table: dn_woocommerce_tax_rate_locations: rows: 0
+0009.648 (R) [notice] Processing table (MyISAM):  wpvk_woocommerce_tax_rates - will restore as: jo_woocommerce_tax_rates
+0011.468 (R) [notice] Menonaktifkan moda perawatan&#8230;
+0011.469 (R) [notice] Atomic restore: dropping original table (dn_woocommerce_tax_rates)
+0011.470 (R) [notice] Atomic restore: renaming new table (jo_woocommerce_tax_rates) to final table name (dn_woocommerce_tax_rates)
+0011.514 (R) [notice] Search and replacing table: dn_woocommerce_tax_rates: rows: 0
+0011.515 (R) [notice] Finished: lines processed: 99 in 10.23 seconds
+0011.516 (R) [notice] Cleaning up rubbish...
+0011.530 (R) [notice] Database search and replace: replace http://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.531 (R) [notice] Database search and replace: replace https://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.531 (R) [notice] Database search and replace: replace https://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.531 (R) [notice] Database search and replace: replace http://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.543 (R) [notice] Search and replacing table: dn_commentmeta: already done
+0011.544 (R) [notice] Search and replacing table: dn_comments: already done
+0011.544 (R) [notice] Search and replacing table: dn_links: already done
+0011.544 (R) [notice] Search and replacing table: dn_nextend2_image_storage: already done
+0011.544 (R) [notice] Search and replacing table: dn_nextend2_section_storage: already done
+0011.545 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_generators: already done
+0011.545 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_sliders: already done
+0011.545 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_sliders_xref: already done
+0011.546 (R) [notice] Search and replacing table: dn_nextend2_smartslider3_slides: already done
+0011.546 (R) [notice] Search and replacing table: dn_options: already done
+0011.546 (R) [notice] Search and replacing table: dn_postmeta: already done
+0011.546 (R) [notice] Search and replacing table: dn_posts: already done
+0011.547 (R) [notice] Search and replacing table: dn_term_relationships: already done
+0011.547 (R) [notice] Search and replacing table: dn_term_taxonomy: already done
+0011.547 (R) [notice] Search and replacing table: dn_termmeta: already done
+0011.547 (R) [notice] Search and replacing table: dn_terms: already done
+0011.548 (R) [notice] Search and replacing table: dn_usermeta: already done
+0011.548 (R) [notice] Search and replacing table: dn_users: already done
+0011.548 (R) [notice] Search and replacing table: dn_wc_download_log: already done
+0011.549 (R) [notice] Search and replacing table: dn_wc_webhooks: already done
+0011.549 (R) [notice] Search and replacing table: dn_woocommerce_api_keys: already done
+0011.549 (R) [notice] Search and replacing table: dn_woocommerce_attribute_taxonomies: already done
+0011.550 (R) [notice] Search and replacing table: dn_woocommerce_downloadable_product_permissions: already done
+0011.550 (R) [notice] Search and replacing table: dn_woocommerce_log: already done
+0011.550 (R) [notice] Search and replacing table: dn_woocommerce_order_itemmeta: already done
+0011.550 (R) [notice] Search and replacing table: dn_woocommerce_order_items: already done
+0011.551 (R) [notice] Search and replacing table: dn_woocommerce_payment_tokenmeta: already done
+0011.551 (R) [notice] Search and replacing table: dn_woocommerce_payment_tokens: already done
+0011.551 (R) [notice] Search and replacing table: dn_woocommerce_sessions: already done
+0011.551 (R) [notice] Search and replacing table: dn_woocommerce_shipping_zone_locations: already done
+0011.552 (R) [notice] Search and replacing table: dn_woocommerce_shipping_zone_methods: already done
+0011.552 (R) [notice] Search and replacing table: dn_woocommerce_shipping_zones: already done
+0011.552 (R) [notice] Search and replacing table: dn_woocommerce_tax_rate_locations: already done
+0011.552 (R) [notice] Search and replacing table: dn_woocommerce_tax_rates: already done
+0011.553 (R) [notice] Tables examined: 31
+0011.553 (R) [notice] Rows examined: 1543
+0011.553 (R) [notice] Changes made: 23
+0011.553 (R) [notice] SQL update commands run: 23
+0011.553 (R) [notice] Errors: 0
+0011.554 (R) [notice] Time taken (seconds): 1.412
+0011.568 (R) [notice] Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-plugins.zip, 42.5 MB)
+0015.675 (R) [notice] Unzip progress: 1990 out of 12124 files (633 B, plugins/akismet/.htaccess)
+0017.119 (R) [notice] Unzip progress: 2991 out of 12124 files (13.6 MB, plugins/clearfy/components/cyrlitera/readme.txt)
+0019.064 (R) [notice] Unzip progress: 3992 out of 12124 files (20 MB, plugins/madx-madx-builder/includes/integrations/themes/hestia/functions.php)
+0023.978 (R) [notice] Unzip progress: 4993 out of 12124 files (39.4 MB, plugins/madxartwork-pro/modules/woocommerce/widgets/product-data-tabs.php)
+0027.581 (R) [notice] Unzip progress: 5994 out of 12124 files (61.9 MB, plugins/role-scoper/hardway/hardway-admin-links_rs.php)
+0029.800 (R) [notice] Unzip progress: 6995 out of 12124 files (82.3 MB, plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.init.js)
+0033.541 (R) [notice] Unzip progress: 7996 out of 12124 files (95.5 MB, plugins/updraftplus/central/classes/class-udrpc.php)
+0035.236 (R) [notice] Unzip progress: 8997 out of 12124 files (115.4 MB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/DirectoryResource.php)
+0038.628 (R) [notice] Unzip progress: 9998 out of 12124 files (126.2 MB, plugins/google-site-kit/third-party/google/apiclient/src/AuthHandler/Guzzle5AuthHandler.php)
+0042.395 (R) [notice] Unzip progress: 10999 out of 12124 files (132.1 MB, plugins/jetpack/css/jetpack-admin.css.min.map)
+0044.344 (R) [notice] Unzip progress: 12000 out of 12124 files (142.7 MB, plugins/jetpack/modules/wordads.php)
+0044.578 (R) [notice] Unzip progress: 12124 out of 12124 files (144 MB, plugins/jetpack/wpml-config.xml)
+0044.609 (R) [notice] Moving old data out of the way...
+0045.815 (R) [notice] Moving unpacked backup into place...
+0049.955 (R) [notice] Cleaning up rubbish...
+0049.958 (R) [notice] Disabled this plugin: W3 Super Cache: re-activate it manually when you are ready.
+0049.964 (R) [notice] Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-themes.zip, 4.1 MB)
+0051.596 (R) [notice] Unzip progress: 433 out of 433 files (6.6 MB, themes/madxflow/woocommerce.php)
+0051.613 (R) [notice] Moving old data out of the way...
+0051.650 (R) [notice] Moving unpacked backup into place...
+0051.750 (R) [notice] Cleaning up rubbish...
+0051.755 (R) [notice] Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-uploads.zip, 102.7 MB)
+0057.244 (R) [notice] Unzip progress: 797 out of 943 files (100 MB, uploads/2022/02/DJ-110H-Handheld-Printer-pdf-106x150.jpg)
+0057.816 (R) [notice] Unzip progress: 943 out of 943 files (103.9 MB, uploads/tf-base-generated.css)
+0057.850 (R) [notice] Moving old data out of the way...
+0057.854 (R) [notice] Moving unpacked backup into place...
+0058.635 (R) [notice] Cleaning up rubbish...
+0058.641 (R) [notice] Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-others.zip, 0 MB)
+0058.648 (R) [notice] Unzip progress: 3 out of 3 files (5.2 KB, advanced-cache.php)
+0058.661 (R) [notice] advanced-cache.php: Skipping cache file (does not already exist)
+0058.668 (R) [notice] Cleaning up rubbish...
+0058.864 (R) [notice] Restore successful!

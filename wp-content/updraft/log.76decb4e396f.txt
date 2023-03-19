@@ -1,0 +1,277 @@
+0000.080 () Opened log file at time: Sat, 18 Mar 2023 23:55:06 +0000 on https://diaranasejahtera.com
+0000.081 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.22 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 37.7M | 6M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.082 () Free space on disk containing Updraft's temporary directory: 339770.3 MB
+0000.273 () Restore setup, now closing connection and starting restore over AJAX.
+0001.085 () Opened log file at time: Sat, 18 Mar 2023 23:55:08 +0000 on https://diaranasejahtera.com
+0001.086 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.22 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 33.9M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0001.087 () Free space on disk containing Updraft's temporary directory: 339770.3 MB
+0001.142 () Ensuring WP_Filesystem is setup for a restore
+0001.147 () WP_Filesystem is setup and ready for a restore
+0001.200 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wpvk_options","wpvk_users","wpvk_usermeta","wpvk_commentmeta","wpvk_comments","wpvk_links","wpvk_postmeta","wpvk_posts","wpvk_term_relationships","wpvk_term_taxonomy","wpvk_termmeta","wpvk_terms","wpvk_woocommerce_order_itemmeta","wpvk_woocommerce_payment_tokenmeta","wpvk_nextend2_image_storage","wpvk_nextend2_section_storage","wpvk_nextend2_smartslider3_generators","wpvk_nextend2_smartslider3_sliders","wpvk_nextend2_smartslider3_sliders_xref","wpvk_nextend2_smartslider3_slides","wpvk_wc_download_log","wpvk_wc_webhooks","wpvk_woocommerce_api_keys","wpvk_woocommerce_attribute_taxonomies","wpvk_woocommerce_downloadable_product_permissions","wpvk_woocommerce_log","wpvk_woocommerce_order_items","wpvk_woocommerce_payment_tokens","wpvk_woocommerce_sessions","wpvk_woocommerce_shipping_zone_locations","wpvk_woocommerce_shipping_zone_methods","wpvk_woocommerce_shipping_zones","wpvk_woocommerce_tax_rate_locations","wpvk_woocommerce_tax_rates"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0001.266 () Entity: db
+0001.266 () restore_backup(backup_file=backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-db.gz, type=db, info=a:0:{}, last_one=)
+0001.267 () Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-db.gz, 0.6 Mb)
+0001.272 () Database successfully unpacked
+0001.275 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.275 () Using direct MySQL access; value of use_mysqli is: 1
+0001.277 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.847 () Max packet size: 32 MB
+0001.847 () Entering maintenance mode
+0001.847 () Mengaktifkan moda perawatan&#8230;
+0002.412 () Backup created by: 1.16.69
+0002.413 () Backup of: http://diaranasejahtera.com
+0002.456 () Site home: https://diaranasejahtera.com
+0002.456 () Content URL: http://diaranasejahtera.com/wp-content
+0002.457 () Uploads URL: https://diaranasejahtera.com/wp-content/uploads
+0002.457 () Old table prefix: wpvk_
+0002.457 () Site information: multisite=0
+0002.458 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0002.461 () New table prefix: jo_
+0002.506 () Processing table (MyISAM): wpvk_options - will restore as: jo_options
+0003.320 () Atomic restore: dropping original table (dn_options)
+0003.517 () Atomic restore: renaming new table (jo_options) to final table name (dn_options)
+0003.521 () Restoring prior UD configuration (table: dn_options; keys: 98)
+0003.764 () Table prefix has changed: changing options table field(s) accordingly (options)
+0003.765 () Options table fields changed OK
+0003.774 () Search and replacing table: dn_options: rows: 687
+0003.794 () Incomplete object detected in database: madxartwork\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0003.795 () Incomplete object detected in database: madxartwork\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0003.803 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0003.826 () Processing table (MyISAM): wpvk_users - will restore as: jo_users
+0004.127 () Atomic restore: dropping original table (dn_users)
+0004.201 () Atomic restore: renaming new table (jo_users) to final table name (dn_users)
+0004.211 () Search and replacing table: dn_users: rows: 1
+0004.212 () Processing table (MyISAM): wpvk_usermeta - will restore as: jo_usermeta
+0004.309 () Atomic restore: dropping original table (dn_usermeta)
+0004.411 () Atomic restore: renaming new table (jo_usermeta) to final table name (dn_usermeta)
+0004.414 () Table prefix has changed: changing usermeta table field(s) accordingly
+0004.416 () Usermeta table fields changed OK
+0004.424 () Search and replacing table: dn_usermeta: rows: 46
+0004.428 () Processing table (MyISAM): wpvk_commentmeta - will restore as: jo_commentmeta
+0004.466 () Atomic restore: dropping original table (dn_commentmeta)
+0004.541 () Atomic restore: renaming new table (jo_commentmeta) to final table name (dn_commentmeta)
+0004.550 () Search and replacing table: dn_commentmeta: rows: 0
+0004.551 () Processing table (MyISAM): wpvk_comments - will restore as: jo_comments
+0004.577 () Atomic restore: dropping original table (dn_comments)
+0004.650 () Atomic restore: renaming new table (jo_comments) to final table name (dn_comments)
+0004.660 () Search and replacing table: dn_comments: rows: 1
+0004.661 () Processing table (MyISAM): wpvk_links - will restore as: jo_links
+0004.681 () Atomic restore: dropping original table (dn_links)
+0004.802 () Atomic restore: renaming new table (jo_links) to final table name (dn_links)
+0004.834 () Search and replacing table: dn_links: rows: 0
+0004.834 () Processing table (MyISAM): wpvk_postmeta - will restore as: jo_postmeta
+0005.651 () Atomic restore: dropping original table (dn_postmeta)
+0005.837 () Atomic restore: renaming new table (jo_postmeta) to final table name (dn_postmeta)
+0005.866 () Search and replacing table: dn_postmeta: rows: 317
+0006.644 () Processing table (MyISAM): wpvk_posts - will restore as: jo_posts
+0007.033 () Atomic restore: dropping original table (dn_posts)
+0007.127 () Atomic restore: renaming new table (jo_posts) to final table name (dn_posts)
+0007.136 () Skipping search/replace on GUID column in posts table
+0007.136 () Search and replacing table: dn_posts: rows: 387
+0007.379 () Processing table (MyISAM): wpvk_term_relationships - will restore as: jo_term_relationships
+0007.531 () Atomic restore: dropping original table (dn_term_relationships)
+0007.722 () Atomic restore: renaming new table (jo_term_relationships) to final table name (dn_term_relationships)
+0007.726 () Skipping this table: data in this table (dn_term_relationships) should not be search/replaced
+0007.727 () Processing table (MyISAM): wpvk_term_taxonomy - will restore as: jo_term_taxonomy
+0007.757 () Atomic restore: dropping original table (dn_term_taxonomy)
+0007.842 () Atomic restore: renaming new table (jo_term_taxonomy) to final table name (dn_term_taxonomy)
+0007.850 () Search and replacing table: dn_term_taxonomy: rows: 29
+0007.852 () Processing table (MyISAM): wpvk_termmeta - will restore as: jo_termmeta
+0007.884 () Atomic restore: dropping original table (dn_termmeta)
+0007.991 () Atomic restore: renaming new table (jo_termmeta) to final table name (dn_termmeta)
+0008.016 () Search and replacing table: dn_termmeta: rows: 38
+0008.019 () Processing table (MyISAM): wpvk_terms - will restore as: jo_terms
+0008.045 () Database queries processed: 50 in 6.76 seconds
+0008.049 () Atomic restore: dropping original table (dn_terms)
+0008.534 () Atomic restore: renaming new table (jo_terms) to final table name (dn_terms)
+0008.554 () Search and replacing table: dn_terms: rows: 29
+0008.556 () Processing table (MyISAM): wpvk_woocommerce_order_itemmeta - will restore as: jo_woocommerce_order_itemmeta
+0008.583 () Atomic restore: dropping original table (dn_woocommerce_order_itemmeta)
+0008.584 () Atomic restore: renaming new table (jo_woocommerce_order_itemmeta) to final table name (dn_woocommerce_order_itemmeta)
+0008.593 () Search and replacing table: dn_woocommerce_order_itemmeta: rows: 0
+0008.593 () Processing table (MyISAM): wpvk_woocommerce_payment_tokenmeta - will restore as: jo_woocommerce_payment_tokenmeta
+0008.629 () Atomic restore: dropping original table (dn_woocommerce_payment_tokenmeta)
+0008.630 () Atomic restore: renaming new table (jo_woocommerce_payment_tokenmeta) to final table name (dn_woocommerce_payment_tokenmeta)
+0008.639 () Search and replacing table: dn_woocommerce_payment_tokenmeta: rows: 0
+0008.639 () Processing table (MyISAM): wpvk_nextend2_image_storage - will restore as: jo_nextend2_image_storage
+0008.666 () Atomic restore: dropping original table (dn_nextend2_image_storage)
+0008.666 () Atomic restore: renaming new table (jo_nextend2_image_storage) to final table name (dn_nextend2_image_storage)
+0008.675 () Search and replacing table: dn_nextend2_image_storage: rows: 2
+0008.676 () Processing table (MyISAM): wpvk_nextend2_section_storage - will restore as: jo_nextend2_section_storage
+0008.712 () Atomic restore: dropping original table (dn_nextend2_section_storage)
+0008.712 () Atomic restore: renaming new table (jo_nextend2_section_storage) to final table name (dn_nextend2_section_storage)
+0008.722 () Search and replacing table: dn_nextend2_section_storage: rows: 6
+0008.723 () Processing table (MyISAM): wpvk_nextend2_smartslider3_generators - will restore as: jo_nextend2_smartslider3_generators
+0008.748 () Atomic restore: dropping original table (dn_nextend2_smartslider3_generators)
+0008.748 () Atomic restore: renaming new table (jo_nextend2_smartslider3_generators) to final table name (dn_nextend2_smartslider3_generators)
+0008.757 () Search and replacing table: dn_nextend2_smartslider3_generators: rows: 0
+0008.757 () Processing table (MyISAM): wpvk_nextend2_smartslider3_sliders - will restore as: jo_nextend2_smartslider3_sliders
+0008.783 () Atomic restore: dropping original table (dn_nextend2_smartslider3_sliders)
+0008.784 () Atomic restore: renaming new table (jo_nextend2_smartslider3_sliders) to final table name (dn_nextend2_smartslider3_sliders)
+0008.795 () Search and replacing table: dn_nextend2_smartslider3_sliders: rows: 0
+0008.795 () Processing table (MyISAM): wpvk_nextend2_smartslider3_sliders_xref - will restore as: jo_nextend2_smartslider3_sliders_xref
+0008.828 () Atomic restore: dropping original table (dn_nextend2_smartslider3_sliders_xref)
+0008.829 () Atomic restore: renaming new table (jo_nextend2_smartslider3_sliders_xref) to final table name (dn_nextend2_smartslider3_sliders_xref)
+0008.841 () Search and replacing table: dn_nextend2_smartslider3_sliders_xref: rows: 0
+0008.841 () Processing table (MyISAM): wpvk_nextend2_smartslider3_slides - will restore as: jo_nextend2_smartslider3_slides
+0008.898 () Atomic restore: dropping original table (dn_nextend2_smartslider3_slides)
+0008.899 () Atomic restore: renaming new table (jo_nextend2_smartslider3_slides) to final table name (dn_nextend2_smartslider3_slides)
+0008.919 () Search and replacing table: dn_nextend2_smartslider3_slides: rows: 0
+0008.919 () Processing table (MyISAM): wpvk_wc_download_log - will restore as: jo_wc_download_log
+0008.948 () Atomic restore: dropping original table (dn_wc_download_log)
+0008.949 () Atomic restore: renaming new table (jo_wc_download_log) to final table name (dn_wc_download_log)
+0008.958 () Search and replacing table: dn_wc_download_log: rows: 0
+0008.958 () Processing table (MyISAM): wpvk_wc_webhooks - will restore as: jo_wc_webhooks
+0008.993 () Atomic restore: dropping original table (dn_wc_webhooks)
+0008.994 () Atomic restore: renaming new table (jo_wc_webhooks) to final table name (dn_wc_webhooks)
+0009.004 () Search and replacing table: dn_wc_webhooks: rows: 0
+0009.004 () Processing table (MyISAM): wpvk_woocommerce_api_keys - will restore as: jo_woocommerce_api_keys
+0009.032 () Atomic restore: dropping original table (dn_woocommerce_api_keys)
+0009.032 () Atomic restore: renaming new table (jo_woocommerce_api_keys) to final table name (dn_woocommerce_api_keys)
+0009.041 () Search and replacing table: dn_woocommerce_api_keys: rows: 0
+0009.041 () Processing table (MyISAM): wpvk_woocommerce_attribute_taxonomies - will restore as: jo_woocommerce_attribute_taxonomies
+0009.077 () Atomic restore: dropping original table (dn_woocommerce_attribute_taxonomies)
+0009.078 () Atomic restore: renaming new table (jo_woocommerce_attribute_taxonomies) to final table name (dn_woocommerce_attribute_taxonomies)
+0009.087 () Search and replacing table: dn_woocommerce_attribute_taxonomies: rows: 0
+0009.087 () Processing table (MyISAM): wpvk_woocommerce_downloadable_product_permissions - will restore as: jo_woocommerce_downloadable_product_permissions
+0009.112 () Atomic restore: dropping original table (dn_woocommerce_downloadable_product_permissions)
+0009.113 () Atomic restore: renaming new table (jo_woocommerce_downloadable_product_permissions) to final table name (dn_woocommerce_downloadable_product_permissions)
+0009.124 () Search and replacing table: dn_woocommerce_downloadable_product_permissions: rows: 0
+0009.124 () Processing table (MyISAM): wpvk_woocommerce_log - will restore as: jo_woocommerce_log
+0009.154 () Atomic restore: dropping original table (dn_woocommerce_log)
+0009.154 () Atomic restore: renaming new table (jo_woocommerce_log) to final table name (dn_woocommerce_log)
+0009.186 () Search and replacing table: dn_woocommerce_log: rows: 0
+0009.186 () Processing table (MyISAM): wpvk_woocommerce_order_items - will restore as: jo_woocommerce_order_items
+0009.284 () Atomic restore: dropping original table (dn_woocommerce_order_items)
+0009.286 () Atomic restore: renaming new table (jo_woocommerce_order_items) to final table name (dn_woocommerce_order_items)
+0009.300 () Skipping this table: data in this table (dn_woocommerce_order_items) should not be search/replaced
+0009.300 () Processing table (MyISAM): wpvk_woocommerce_payment_tokens - will restore as: jo_woocommerce_payment_tokens
+0009.345 () Atomic restore: dropping original table (dn_woocommerce_payment_tokens)
+0009.347 () Atomic restore: renaming new table (jo_woocommerce_payment_tokens) to final table name (dn_woocommerce_payment_tokens)
+0009.381 () Search and replacing table: dn_woocommerce_payment_tokens: rows: 0
+0009.381 () Processing table (MyISAM): wpvk_woocommerce_sessions - will restore as: jo_woocommerce_sessions
+0009.429 () Atomic restore: dropping original table (dn_woocommerce_sessions)
+0009.431 () Atomic restore: renaming new table (jo_woocommerce_sessions) to final table name (dn_woocommerce_sessions)
+0009.445 () Skipping this table: data in this table (dn_woocommerce_sessions) should not be search/replaced
+0009.446 () Processing table (MyISAM): wpvk_woocommerce_shipping_zone_locations - will restore as: jo_woocommerce_shipping_zone_locations
+0009.474 () Atomic restore: dropping original table (dn_woocommerce_shipping_zone_locations)
+0009.475 () Atomic restore: renaming new table (jo_woocommerce_shipping_zone_locations) to final table name (dn_woocommerce_shipping_zone_locations)
+0009.491 () Search and replacing table: dn_woocommerce_shipping_zone_locations: rows: 0
+0009.491 () Processing table (MyISAM): wpvk_woocommerce_shipping_zone_methods - will restore as: jo_woocommerce_shipping_zone_methods
+0009.526 () Atomic restore: dropping original table (dn_woocommerce_shipping_zone_methods)
+0009.528 () Atomic restore: renaming new table (jo_woocommerce_shipping_zone_methods) to final table name (dn_woocommerce_shipping_zone_methods)
+0009.542 () Search and replacing table: dn_woocommerce_shipping_zone_methods: rows: 0
+0009.542 () Processing table (MyISAM): wpvk_woocommerce_shipping_zones - will restore as: jo_woocommerce_shipping_zones
+0009.579 () Atomic restore: dropping original table (dn_woocommerce_shipping_zones)
+0009.580 () Atomic restore: renaming new table (jo_woocommerce_shipping_zones) to final table name (dn_woocommerce_shipping_zones)
+0009.598 () Search and replacing table: dn_woocommerce_shipping_zones: rows: 0
+0009.598 () Processing table (MyISAM): wpvk_woocommerce_tax_rate_locations - will restore as: jo_woocommerce_tax_rate_locations
+0009.638 () Atomic restore: dropping original table (dn_woocommerce_tax_rate_locations)
+0009.639 () Atomic restore: renaming new table (jo_woocommerce_tax_rate_locations) to final table name (dn_woocommerce_tax_rate_locations)
+0009.648 () Search and replacing table: dn_woocommerce_tax_rate_locations: rows: 0
+0009.648 () Processing table (MyISAM): wpvk_woocommerce_tax_rates - will restore as: jo_woocommerce_tax_rates
+0009.678 () UpdraftPlus Vault: this site has not been connected - check your settings
+0011.468 () Unlocking database and leaving maintenance mode
+0011.468 () Menonaktifkan moda perawatan&#8230;
+0011.469 () Atomic restore: dropping original table (dn_woocommerce_tax_rates)
+0011.470 () Atomic restore: renaming new table (jo_woocommerce_tax_rates) to final table name (dn_woocommerce_tax_rates)
+0011.515 () Search and replacing table: dn_woocommerce_tax_rates: rows: 0
+0011.515 () Finished: lines processed: 99 in 10.23 seconds
+0011.516 () Cleaning up rubbish...
+0011.518 () Begin search and replace (updraftplus_restored_db)
+0011.518 () [Database-replace-site-url] Database: search and replace site URL
+0011.521 () Restored pre-migration site ID for this installation
+0011.530 () Database search and replace: replace http://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.531 () Database search and replace: replace https://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.531 () Database search and replace: replace https://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.531 () Database search and replace: replace http://diaranasejahtera.com in backup dump with https://diaranasejahtera.com
+0011.543 () Search and replacing table: dn_commentmeta: already done
+0011.544 () Search and replacing table: dn_comments: already done
+0011.544 () Search and replacing table: dn_links: already done
+0011.544 () Search and replacing table: dn_nextend2_image_storage: already done
+0011.545 () Search and replacing table: dn_nextend2_section_storage: already done
+0011.545 () Search and replacing table: dn_nextend2_smartslider3_generators: already done
+0011.545 () Search and replacing table: dn_nextend2_smartslider3_sliders: already done
+0011.545 () Search and replacing table: dn_nextend2_smartslider3_sliders_xref: already done
+0011.546 () Search and replacing table: dn_nextend2_smartslider3_slides: already done
+0011.546 () Search and replacing table: dn_options: already done
+0011.546 () Search and replacing table: dn_postmeta: already done
+0011.546 () Search and replacing table: dn_posts: already done
+0011.547 () Search and replacing table: dn_term_relationships: already done
+0011.547 () Search and replacing table: dn_term_taxonomy: already done
+0011.547 () Search and replacing table: dn_termmeta: already done
+0011.548 () Search and replacing table: dn_terms: already done
+0011.548 () Search and replacing table: dn_usermeta: already done
+0011.548 () Search and replacing table: dn_users: already done
+0011.549 () Search and replacing table: dn_wc_download_log: already done
+0011.549 () Search and replacing table: dn_wc_webhooks: already done
+0011.549 () Search and replacing table: dn_woocommerce_api_keys: already done
+0011.549 () Search and replacing table: dn_woocommerce_attribute_taxonomies: already done
+0011.550 () Search and replacing table: dn_woocommerce_downloadable_product_permissions: already done
+0011.550 () Search and replacing table: dn_woocommerce_log: already done
+0011.550 () Search and replacing table: dn_woocommerce_order_itemmeta: already done
+0011.551 () Search and replacing table: dn_woocommerce_order_items: already done
+0011.551 () Search and replacing table: dn_woocommerce_payment_tokenmeta: already done
+0011.551 () Search and replacing table: dn_woocommerce_payment_tokens: already done
+0011.551 () Search and replacing table: dn_woocommerce_sessions: already done
+0011.552 () Search and replacing table: dn_woocommerce_shipping_zone_locations: already done
+0011.552 () Search and replacing table: dn_woocommerce_shipping_zone_methods: already done
+0011.552 () Search and replacing table: dn_woocommerce_shipping_zones: already done
+0011.552 () Search and replacing table: dn_woocommerce_tax_rate_locations: already done
+0011.553 () Search and replacing table: dn_woocommerce_tax_rates: already done
+0011.567 () Entity: plugins
+0011.567 () restore_backup(backup_file=backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:38:"D:\xampp-7.1\htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0011.568 () Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-plugins.zip, 42.5 MB)
+0011.601 () Unzipping backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-plugins.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/91af692b/ using UpdraftPlus_ZipArchive, starting index 0
+0015.676 () Unzip progress: 1990 out of 12124 files (633 B, plugins/akismet/.htaccess)
+0017.120 () Unzip progress: 2991 out of 12124 files (13.6 MB, plugins/clearfy/components/cyrlitera/readme.txt)
+0019.064 () Unzip progress: 3992 out of 12124 files (20 MB, plugins/madx-madx-builder/includes/integrations/themes/hestia/functions.php)
+0023.978 () Unzip progress: 4993 out of 12124 files (39.4 MB, plugins/madxartwork-pro/modules/woocommerce/widgets/product-data-tabs.php)
+0027.581 () Unzip progress: 5994 out of 12124 files (61.9 MB, plugins/role-scoper/hardway/hardway-admin-links_rs.php)
+0029.800 () Unzip progress: 6995 out of 12124 files (82.3 MB, plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.init.js)
+0033.542 () Unzip progress: 7996 out of 12124 files (95.5 MB, plugins/updraftplus/central/classes/class-udrpc.php)
+0035.236 () Unzip progress: 8997 out of 12124 files (115.4 MB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/DirectoryResource.php)
+0038.629 () Unzip progress: 9998 out of 12124 files (126.2 MB, plugins/google-site-kit/third-party/google/apiclient/src/AuthHandler/Guzzle5AuthHandler.php)
+0042.395 () Unzip progress: 10999 out of 12124 files (132.1 MB, plugins/jetpack/css/jetpack-admin.css.min.map)
+0044.344 () Unzip progress: 12000 out of 12124 files (142.7 MB, plugins/jetpack/modules/wordads.php)
+0044.578 () Unzip progress: 12124 out of 12124 files (144 MB, plugins/jetpack/wpml-config.xml)
+0044.608 () Moving old data: filesystem method / updraft_dir is potentially possible
+0044.609 () Moving old data: can potentially use wp_filesystem method / -old
+0044.609 () Moving old data out of the way...
+0045.803 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0045.815 () Moving unpacked backup into place...
+0048.559 () Top-level entities being moved: acf-extended-pro, adminimize, advanced-excerpt, akismet, all-in-one-wp-security-and-firewall, anywhere-madxartwork-pro, clearfy, custom-content-shortcode, custom-php-settings, enable-media-replace, external-media-without-import, google-site-kit, index.php, insert-php-code-snippet, jetpack, jsm-show-post-meta, jsm-show-term-meta, jsm-show-user-meta, list-custom-taxonomy-widget, madx-engine, madx-madx-builder, madxartwork, madxartwork-pro, madxseo, many-tips-together, members, my-custom-functions, powerpack-elements, purge-cloud-flare, q2w3-fixed-widget, role-scoper, schema-madx, text-spinner, updraftplus, user-role-editor-pro, woocommerce, wp-downgrade, wp-excerpt-settings, wp-hide-security-enhancer-pro, wp-mail-smtp, wp-optimize, wp-super-cache
+0049.955 () Cleaning up rubbish...
+0049.958 () [W3 Super Cache] Disabled this plugin: %s: re-activate it manually when you are ready.
+0049.962 () Entity: themes
+0049.962 () restore_backup(backup_file=backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-themes.zip, type=themes, info=a:2:{s:4:"path";s:37:"D:\xampp-7.1\htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0049.964 () Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-themes.zip, 4.1 MB)
+0049.966 () Unzipping backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-themes.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/0ab8a1c9/ using UpdraftPlus_ZipArchive, starting index 0
+0051.597 () Unzip progress: 433 out of 433 files (6.6 MB, themes/madxflow/woocommerce.php)
+0051.612 () Moving old data: filesystem method / updraft_dir is potentially possible
+0051.613 () Moving old data: can potentially use wp_filesystem method / -old
+0051.613 () Moving old data out of the way...
+0051.644 () Top-level entities being moved: index.php, twentyfifteen, twentyseventeen, twentysixteen
+0051.650 () Moving unpacked backup into place...
+0051.741 () Top-level entities being moved: index.php, madxflow, twentyfifteen, twentyseventeen, twentysixteen
+0051.749 () Cleaning up rubbish...
+0051.754 () Entity: uploads
+0051.754 () restore_backup(backup_file=backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:38:"D:\xampp-7.1\htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0051.755 () Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-uploads.zip, 102.7 MB)
+0051.757 () Unzipping backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-uploads.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/ea9a66ba/ using UpdraftPlus_ZipArchive, starting index 0
+0057.244 () Unzip progress: 797 out of 943 files (100 MB, uploads/2022/02/DJ-110H-Handheld-Printer-pdf-106x150.jpg)
+0057.816 () Unzip progress: 943 out of 943 files (103.9 MB, uploads/tf-base-generated.css)
+0057.849 () Moving old data: filesystem method / updraft_dir is potentially possible
+0057.850 () Moving old data: can potentially use wp_filesystem method / -old
+0057.850 () Moving old data out of the way...
+0057.854 () Moving unpacked backup into place...
+0058.635 () Cleaning up rubbish...
+0058.640 () Entity: others
+0058.640 () restore_backup(backup_file=backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-others.zip, type=others, info=a:2:{s:4:"path";s:30:"D:\xampp-7.1\htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0058.641 () Unpacking backup... (backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-others.zip, 0 MB)
+0058.643 () Unzipping backup_2023-03-06-0748_Suplier_Coding_Printing_72fcab0a70af-others.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/c92673a7/ using UpdraftPlus_ZipArchive, starting index 0
+0058.649 () Unzip progress: 3 out of 3 files (5.2 KB, advanced-cache.php)
+0058.661 () advanced-cache.php: Skipping cache file (does not already exist)
+0058.668 () Cleaning up rubbish...
+0058.864 () Restore successful!
+0058.865 () Restore successful
